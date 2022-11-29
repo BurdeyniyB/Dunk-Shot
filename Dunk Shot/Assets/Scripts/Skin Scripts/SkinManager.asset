@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skins:
   - cost: 0
-    sprite: {fileID: -349777143, guid: 2e24326534cf0d24ba2b1b959a43bdc9, type: 3}
+    sprite: {fileID: -7526378376722616675, guid: 2e24326534cf0d24ba2b1b959a43bdc9, type: 3}
   - cost: 10
-    sprite: {fileID: -1157046601, guid: 2e24326534cf0d24ba2b1b959a43bdc9, type: 3}
+    sprite: {fileID: -8224507914004318360, guid: 2e24326534cf0d24ba2b1b959a43bdc9, type: 3}
   - cost: 20
-    sprite: {fileID: -788171570, guid: 2e24326534cf0d24ba2b1b959a43bdc9, type: 3}
+    sprite: {fileID: -4024085426467761741, guid: 2e24326534cf0d24ba2b1b959a43bdc9, type: 3}
   - cost: 30
-    sprite: {fileID: -1195519583, guid: 2e24326534cf0d24ba2b1b959a43bdc9, type: 3}
+    sprite: {fileID: 6596513278769530455, guid: 2e24326534cf0d24ba2b1b959a43bdc9, type: 3}
