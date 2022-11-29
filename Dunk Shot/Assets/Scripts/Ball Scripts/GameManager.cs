@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour, inRingInterface
 	Vector2 direction;
 	Vector2 force;
 	float distance;
-	[SerializeField] private bool InRing;
+	[SerializeField] private bool InRing = true;
 
 	void Start ()
 	{
@@ -90,12 +90,12 @@ public class GameManager : MonoBehaviour, inRingInterface
 	{
 	 if(InRing)
       {
-        if(force.y >= admissibleForce.y)
+        if(force.y + 5f >= admissibleForce.y + 10f)
         {
          ball.ActivateRb ();
         }
 
-        if(force.y >= admissibleForce.y)
+        if(force.y + 5f >= admissibleForce.y + 10f)
         {
          ball.Push (force);
 
