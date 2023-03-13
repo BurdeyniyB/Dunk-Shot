@@ -50,6 +50,7 @@ public class RingGeneration : MonoBehaviour
    	 dotpos[2] = Instantiate (RingDotPrefab, new Vector2(random_position_x, random_position_y), Quaternion.identity);
      Debug.Log("dotpos[2] = " + dotpos[2].transform.position);
 
+     CountBallInRing.instance.CountPlus();
      x++;
    	}
 

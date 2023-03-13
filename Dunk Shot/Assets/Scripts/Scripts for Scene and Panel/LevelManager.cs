@@ -18,8 +18,8 @@ using UnityEngine.UI;
 
         public void Task()
         {
-            SceneManager.LoadScene(SceneName);
             PlayerPrefs.SetInt("Level manager click", 1);
+            SceneManager.LoadScene(SceneName);
         }
 
     }

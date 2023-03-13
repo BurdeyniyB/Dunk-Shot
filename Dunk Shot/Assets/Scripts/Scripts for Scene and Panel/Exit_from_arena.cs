@@ -33,6 +33,7 @@ public class Exit_from_arena : MonoBehaviour
          }
          else
          {
+           CountBallInRing.instance.CountWrite("number of hits after the game - ");
           _scoreText_panel_fail.text = score_for_check.ToString();
           if(_best_score_for_check < score_for_check)
              _new_score_panel_fail.SetActive(true);
